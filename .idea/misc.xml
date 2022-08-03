@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Disaster/Disaster/app/src/main/res/layout/activity_disaster_map.xml" value="0.25" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/drawable_selector.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/ic_menu.xml" value="0.139" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/layout_shape.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/custom_button.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/custom_email.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/custom_input.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/custom_input2.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/custom_lock.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/custom_person.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/custom_person_add.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_baseline_person.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_baseline_person_add.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_undraw_mobile_login_re_9ntv.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_undraw_register_logo_re_gxtj.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_up.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_wave__4_.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/ic_wave__5_.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/activity_disaster_map.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/activity_loading_page.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/activity_login.xml" value="0.13272543059777103" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/activity_weather_and_disaster.xml" value="0.25" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/fragment_disaster.xml" value="0.25" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/fragment_weather.xml" value="0.25" />
+        <entry key="..\:/Disaster/app/src/main/res/menu/activity_weather_and_disaster.xml" value="0.12552083333333333" />
+        <entry key="..\:/Disaster/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19148936170212766" />
+        <entry key="..\:/Disaster/app/src/main/res/menu/main_menu.xml" value="0.12552083333333333" />
+        <entry key="..\:/Disaster/app/src/main/res/menu/upon_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/drawable-v24/drawable_selector.xml" value="0.1845" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/drawable-v24/ic_baseline_directions_24.xml" value="0.1845" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/drawable-v24/ic_baseline_local_phone_24.xml" value="0.1845" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.1845" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/drawable-v24/ic_menu.xml" value="0.1845" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/drawable-v24/layout_shape.xml" value="0.1845" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/drawable-v24/rounded_corner_overlay.xml" value="0.1845" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/layout/activity_disaster_map.xml" value="0.25" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/layout/activity_weather_and_disaster.xml" value="0.25" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/layout/fragment_disaster.xml" value="0.25" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/layout/fragment_weather.xml" value="0.25" />
+        <entry key="..\:/Users/EssaShehab99/Downloads/Disaster/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable-v24/ic_baseline_email.xml" value="0.1725" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_button.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_email.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_input.xml" value="0.1135" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_input2.xml" value="0.143" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_lock.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_person.xml" value="0.1135" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_person_add.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person_add.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_launcher_background.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_undraw_mobile_login_re_9ntv.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_undraw_register_logo_re_gxtj.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_wave__4_.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/layout/activity_3.xml" value="0.14537037037037037" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/layout/activity_edit.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/layout/activity_loading_page.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/layout/logout_dialog.xml" value="0.14537037037037037" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Form/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1725" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable-v24/ic_baseline_email.xml" value="0.182" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_button.xml" value="0.119" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_email.xml" value="0.182" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_input.xml" value="0.2115" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_lock.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_person.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/custom_person_add.xml" value="0.182" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.182" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.14" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person_add.xml" value="0.182" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.156" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_person.xml" value="0.109" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_undraw_mobile_login_re_9ntv.xml" value="0.182" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_wave__4_.xml" value="0.2115" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_wave__5_.xml" value="0.1325" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/ic_wave__6_.xml" value="0.2115" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/drawable/wave__6_.xml" value="0.2115" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout-land/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/activity_edit.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/activity_loading_page.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.156" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Form/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2115" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

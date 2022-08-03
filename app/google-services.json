@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294025381769",
+    "project_id": "form-ce701",
+    "storage_bucket": "form-ce701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294025381769:android:d51329c3613cbaa60e4358",
+        "android_client_info": {
+          "package_name": "com.example.form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294025381769-eqrfduerftudhin1j5u3un4spl1h5hfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_JfzfpFfx_BzS-ZvxhujbqeGyckRTxDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294025381769-eqrfduerftudhin1j5u3un4spl1h5hfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
