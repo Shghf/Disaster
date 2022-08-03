@@ -42,7 +42,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
-                android:text="First Center"
                 android:textColor="@color/dark"
                 android:textSize="15sp" />
 
@@ -51,7 +50,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
-                android:text="First Center detals"
                 android:textColor="@color/dark"
                 android:textSize="15sp" />
 
@@ -88,17 +86,17 @@
         android:padding="20dp">
 
         <TextView
+            android:id="@+id/disaster_title_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="information about Hurricanes:"
             android:textColor="@color/grey"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/disaster_details_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hurricanes  are dangerous and  can  cause  major damage   from   storm   surge,  wind  damage, rip currents  and  flooding.  They  can  happen along any U.S. coast or in any territory in the Atlantic or Pacific oceans."
             android:textColor="@color/grey"
             android:textSize="15sp" />
     </LinearLayout>

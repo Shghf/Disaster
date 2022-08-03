@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
 
@@ -21,6 +22,8 @@ public class WeatherAndDisasterActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigation;
     ImageView menu;
     AlertDialog.Builder builder;
+    private Button logoutYesBtn, logoutCancelBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,18 +56,30 @@ public class WeatherAndDisasterActivity extends AppCompatActivity {
 
     private boolean onMenuItemClick(MenuItem item) {
         if (item.getItemId() == R.id.logout) {
-                    if (getIntent().getBooleanExtra("isAdmin", false)) {
-                        Intent intent = new Intent(this, Activity_login.class);
-                        startActivity(intent);
-                        finish();}
-                    else {
-                        Intent returnIntent = new Intent();
-                        returnIntent.putExtra("login", false);
-                        setResult(Activity.RESULT_OK, returnIntent);
-                        finish();
+            View view = View.inflate(this, R.layout.dialilog, null);
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setView(view);
+            AlertDialog dialog = builder.create();
+            dialog.show();
+            dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+            logoutYesBtn = view.findViewById(R.id.logoutYesBtn);
+            logoutCancelBtn = view.findViewById(R.id.logoutCancelBtn);
+            logoutYesBtn.setOnClickListener(v1 -> {
+                if (getIntent().getBooleanExtra("isAdmin", false)) {
+                    Intent intent = new Intent(this, Activity_login.class);
+                    startActivity(intent);
+                    finish();}
+                else {
+                    Intent returnIntent = new Intent();
+                    returnIntent.putExtra("login", false);
+                    setResult(Activity.RESULT_OK, returnIntent);
+                    finish();
+                }
+                dialog.dismiss();
+            });
+            logoutCancelBtn.setOnClickListener(v1 -> dialog.dismiss());
 
 
-                    }
 ////                openDialog();
 //                builder.setMessage("Do you want to logout?")
 //                        .setCancelable(false)

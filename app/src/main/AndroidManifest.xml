@@ -33,14 +33,14 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".WeatherAndDisasterActivity"
+            android:name=".Loading_page"
             android:exported="false" />
 
         <activity
             android:name=".DisasterMap"
             android:exported="false" />
         <activity
-            android:name=".Loading_page"
+            android:name=".WeatherAndDisasterActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

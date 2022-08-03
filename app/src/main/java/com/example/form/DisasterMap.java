@@ -46,7 +46,7 @@ public class DisasterMap extends AppCompatActivity implements OnMapReadyCallback
     private static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
     boolean locationPermissionGranted = false;
     GoogleMap map;
-    TextView title, description;
+    TextView title, description,disaster_title_tv,disaster_details_tv;
     List<HelpCenterModel> helpCenterModels = new ArrayList<>();
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     FirebaseStorage storage;
@@ -54,10 +54,17 @@ public class DisasterMap extends AppCompatActivity implements OnMapReadyCallback
     ImageView phoneIV,directionIV;
     String phone;
     LatLng destination, currentLocation;
+    String disasterTitle,disasterDetails;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_disaster_map);
+        disasterTitle = getIntent().getStringExtra("disaster-title");
+        disasterDetails = getIntent().getStringExtra("disaster-details");
+        disaster_title_tv = findViewById(R.id.disaster_title_tv);
+        disaster_details_tv = findViewById(R.id.disaster_details_tv);
+        disaster_title_tv.setText(disasterTitle);
+        disaster_details_tv.setText(disasterDetails);
         title = findViewById(R.id.title_tv);
         description = findViewById(R.id.description_tv);
         storage = FirebaseStorage.getInstance();

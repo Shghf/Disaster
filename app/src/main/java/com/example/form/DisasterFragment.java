@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
@@ -16,50 +17,41 @@ import java.util.List;
 
 
 public class DisasterFragment extends Fragment {
-ListView listView;
+    ImageView tsunami, earthquake, volcano, forest, tornado, snowstorm, flood, hurricane, sandstorm, thunderstorm, hailstorm, dust, drought, sinkhole, avalanche, windstorm;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
-//    @Override
-//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-//                             Bundle savedInstanceState) {
-//        View view = inflater.inflate(R.layout.fragment_disaster, container, false);
-//        listView = view.findViewById(R.id.listView);
-//        List<String> personList = new ArrayList<String>();
-//        personList.add("Forest Fire");
-//        personList.add("Volcano");
-//        personList.add("Earthquake");
-//        personList.add("Tsunami");
-//        personList.add("Hurricane");
-//        personList.add("Flood");
-//        personList.add("Snowstorm");
-//        personList.add("Tornado");
-//        personList.add("Dust storm");
-//        personList.add("Hailstorm");
-//        personList.add("Thunderstorm");
-//        personList.add("Avalanche");
-//        personList.add("Windstorm");
-//        personList.add("Sinkhole");
-//        personList.add("Tornado");
-//        personList.add("Sandstorm");
-//        personList.add("Drought");
-//
-//
-//        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, personList);
-//        listView.setAdapter(arrayAdapter);
-//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//               startActivity(new Intent(getActivity(), DisasterMap.class));
-//            }
-//        });
-//        return view;
-//    }
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_disaster, container, false);
+        tsunami = view.findViewById(R.id.tsunami);
+        earthquake = view.findViewById(R.id.earthquake);
+        volcano = view.findViewById(R.id.volcano);
+        forest = view.findViewById(R.id.forest);
+        tornado = view.findViewById(R.id.tornado);
+        snowstorm = view.findViewById(R.id.snowstorm);
+        flood = view.findViewById(R.id.flood);
+        hurricane = view.findViewById(R.id.hurricane);
+        sandstorm = view.findViewById(R.id.sandstorm);
+        thunderstorm = view.findViewById(R.id.thunderstorm);
+        hailstorm = view.findViewById(R.id.hailstorm);
+        dust = view.findViewById(R.id.dust);
+        drought = view.findViewById(R.id.drought);
+        sinkhole = view.findViewById(R.id.sinkhole);
+        avalanche = view.findViewById(R.id.avalanche);
+        windstorm = view.findViewById(R.id.windstorm);
 
-    public void onClick(View view) {
-        startActivity(new Intent(getActivity(), DisasterMap.class));
 
+        tsunami.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), DisasterMap.class);
+            intent.putExtra("disaster-title", "information about Hurricanes:");
+            intent.putExtra("disaster-details", "Hurricanes  are dangerous and  can  cause  major damage   from   storm   surge,  wind  damage, rip currents  and  flooding.  They  can  happen along any U.S. coast or in any territory in the Atlantic or Pacific oceans.");
+            startActivity(intent);
+        });
+        return view;
     }
 }

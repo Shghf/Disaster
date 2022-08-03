@@ -7,14 +7,162 @@
     android:layout_height="match_parent"
     style="@style/theme_color"
     tools:context=".DisasterFragment">
-<ListView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:srcCompat="@drawable/ic_undraw_mobile_login_re_9ntv"
-    android:id="@+id/listView">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_height="wrap_content">
 
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
 
-</ListView>
+            <ImageView
+                android:id="@+id/tsunami"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121342" />
 
+            <ImageView
+                android:id="@+id/earthquake"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121406"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:id="@+id/volcano"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121441" />
+
+            <ImageView
+                android:id="@+id/forest"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121503" />
+
+            <ImageView
+                android:id="@+id/tornado"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121644"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:id="@+id/snowstorm"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121756"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:id="@+id/flood"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121814"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:id="@+id/hurricane"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121831"
+                />
+
+            <ImageView
+                android:id="@+id/sandstorm"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121855"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/thunderstorm"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121916"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/hailstorm"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_121939"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/dust"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_122021"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/drought"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_122048"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/sinkhole"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_122316"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/avalanche"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_122421"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/windstorm"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/_0220803_122352"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
