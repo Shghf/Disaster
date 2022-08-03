@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:background="@drawable/layout_shape"
-    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     style="@style/theme_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_shape"
     tools:context=".DisasterFragment">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_marginTop="22dp"
-            android:gravity="center"
-            android:padding="15dp"
-            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="15dp">
 
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/tsunami"
@@ -95,8 +104,17 @@
 
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/_0220803_121831"
-                />
+                app:srcCompat="@drawable/_0220803_121831" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/sandstorm"
@@ -106,6 +124,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/_0220803_121855"
                 tools:ignore="OnClick" />
+
             <ImageView
                 android:id="@+id/thunderstorm"
                 android:layout_width="150dp"
@@ -114,6 +133,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/_0220803_121916"
                 tools:ignore="OnClick" />
+
             <ImageView
                 android:id="@+id/hailstorm"
                 android:layout_width="150dp"
@@ -122,6 +142,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/_0220803_121939"
                 tools:ignore="OnClick" />
+
             <ImageView
                 android:id="@+id/dust"
                 android:layout_width="150dp"
@@ -130,6 +151,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/_0220803_122021"
                 tools:ignore="OnClick" />
+
             <ImageView
                 android:id="@+id/drought"
                 android:layout_width="150dp"
@@ -138,6 +160,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/_0220803_122048"
                 tools:ignore="OnClick" />
+
             <ImageView
                 android:id="@+id/sinkhole"
                 android:layout_width="150dp"
@@ -146,6 +169,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/_0220803_122316"
                 tools:ignore="OnClick" />
+
             <ImageView
                 android:id="@+id/avalanche"
                 android:layout_width="150dp"
@@ -154,6 +178,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/_0220803_122421"
                 tools:ignore="OnClick" />
+
             <ImageView
                 android:id="@+id/windstorm"
                 android:layout_width="150dp"
@@ -163,6 +188,9 @@
                 app:srcCompat="@drawable/_0220803_122352"
                 tools:ignore="OnClick" />
         </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
+           </ScrollView>
 
 </FrameLayout>
