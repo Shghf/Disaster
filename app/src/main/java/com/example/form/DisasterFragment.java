@@ -5,20 +5,21 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.form.adapter.CustomAdapter;
+import com.example.form.model.DisasterModel;
 
 import java.util.ArrayList;
-import java.util.List;
-
 
 public class DisasterFragment extends Fragment {
-    ImageView tsunami, earthquake, volcano, forest, tornado, snowstorm, flood, hurricane, sandstorm, thunderstorm, hailstorm, dust, drought, sinkhole, avalanche, windstorm;
-
+    CustomAdapter adapter;
+    RecyclerView disasterRecyclerView;
+    static  ArrayList<DisasterModel> disasterList;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,30 +29,24 @@ public class DisasterFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_disaster, container, false);
-        tsunami = view.findViewById(R.id.tsunami);
-        earthquake = view.findViewById(R.id.earthquake);
-        volcano = view.findViewById(R.id.volcano);
-        forest = view.findViewById(R.id.forest);
-        tornado = view.findViewById(R.id.tornado);
-        snowstorm = view.findViewById(R.id.snowstorm);
-        flood = view.findViewById(R.id.flood);
-        hurricane = view.findViewById(R.id.hurricane);
-        sandstorm = view.findViewById(R.id.sandstorm);
-        thunderstorm = view.findViewById(R.id.thunderstorm);
-        hailstorm = view.findViewById(R.id.hailstorm);
-        dust = view.findViewById(R.id.dust);
-        drought = view.findViewById(R.id.drought);
-        sinkhole = view.findViewById(R.id.sinkhole);
-        avalanche = view.findViewById(R.id.avalanche);
-        windstorm = view.findViewById(R.id.windstorm);
-
-
-        tsunami.setOnClickListener(v -> {
+        disasterRecyclerView = view.findViewById(R.id.disaster_list);
+         disasterList = new ArrayList<>();
+        disasterList.add(new DisasterModel(R.drawable.flood, "Floods", "flood_disaster_flooding_is_a_temporary_overflow_of_water_onto_land_that_is_normally_dry_floods_are_the_most_common_natural_disaster_in_the_united_states_detection_find_safe_shelter_right_away_do_not_walk_swim_or_drive_through_flood_waters_turn_around_don_t_drown_remember_just_six_inches_of_moving_water_can_knock_you_down_and_one_foot_of_moving_water_can_sweep_your_vehicle_away_stay_off_bridges_over_fast_moving_water_depending_on_the_type_of_flooding_o_evacuate_if_told_to_do_so_o_move_to_higher_ground_or_a_higher_floor_o_stay_where_you_are"));
+        adapter =new CustomAdapter(getActivity(),disasterList);
+        adapter.setOnItemClickListener((position, v) -> {
             Intent intent = new Intent(getActivity(), DisasterMap.class);
-            intent.putExtra("disaster-title", "information about Hurricanes:");
-            intent.putExtra("disaster-details", "Hurricanes  are dangerous and  can  cause  major damage   from   storm   surge,  wind  damage, rip currents  and  flooding.  They  can  happen along any U.S. coast or in any territory in the Atlantic or Pacific oceans.");
+            intent.putExtra("position", position);
             startActivity(intent);
         });
+        insertToLocal();
         return view;
+    }
+    void insertToLocal() {
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
+        disasterRecyclerView.setLayoutManager(linearLayoutManager);
+        disasterRecyclerView.setAdapter(adapter);
+        linearLayoutManager.setStackFromEnd(true);
+//        recycleViewMessage.addItemDecoration(new OverlapDecoration());
+
     }
 }

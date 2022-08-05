@@ -51,20 +51,19 @@ public class DisasterMap extends AppCompatActivity implements OnMapReadyCallback
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     FirebaseStorage storage;
     StorageReference storageReference;
-    ImageView phoneIV,directionIV;
+    ImageView phoneIV,directionIV,disasterImg;
     String phone;
     LatLng destination, currentLocation;
-    String disasterTitle,disasterDetails;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_disaster_map);
-        disasterTitle = getIntent().getStringExtra("disaster-title");
-        disasterDetails = getIntent().getStringExtra("disaster-details");
-        disaster_title_tv = findViewById(R.id.disaster_title_tv);
-        disaster_details_tv = findViewById(R.id.disaster_details_tv);
-        disaster_title_tv.setText(disasterTitle);
-        disaster_details_tv.setText(disasterDetails);
+        disasterImg=findViewById(R.id.disaster_img);
+        disaster_title_tv = findViewById(R.id.title_img);
+        disaster_details_tv = findViewById(R.id.disaster_desc);
+        disaster_title_tv.setText(DisasterFragment.disasterList.get(getIntent().getIntExtra("position",0)).getTitle());
+        disaster_details_tv.setText(DisasterFragment.disasterList.get(getIntent().getIntExtra("position",0)).getDesc());
+        disasterImg.setImageResource(DisasterFragment.disasterList.get(getIntent().getIntExtra("position",0)).getImage());
         title = findViewById(R.id.title_tv);
         description = findViewById(R.id.description_tv);
         storage = FirebaseStorage.getInstance();
