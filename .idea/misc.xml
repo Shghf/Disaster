@@ -4,12 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Disaster/Disaster/app/src/main/res/layout/activity_disaster_map.xml" value="0.25" />
-        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/custom_button.xml" value="0.136" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/custom_button.xml" value="0.1845" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/dialog_header.xml.xml" value="0.1845" />
         <entry key="..\:/Disaster/app/src/main/res/drawable-v24/drawable_selector.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable-v24/ic_menu.xml" value="0.139" />
         <entry key="..\:/Disaster/app/src/main/res/drawable-v24/layout_shape.xml" value="0.1" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable-v24/rounded_corner_overlay.xml" value="0.1845" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/custom_button.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/custom_email.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/custom_input.xml" value="0.1" />
@@ -17,7 +19,8 @@
         <entry key="..\:/Disaster/app/src/main/res/drawable/custom_lock.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/custom_person.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/custom_person_add.xml" value="0.1" />
-        <entry key="..\:/Disaster/app/src/main/res/drawable/dialog_header.xml" value="0.136" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/dialog_header.xml" value="0.1845" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/dialog_shape.xml" value="0.1845" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/ic_baseline_person.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/ic_baseline_person_add.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
@@ -26,24 +29,17 @@
         <entry key="..\:/Disaster/app/src/main/res/drawable/ic_up.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/ic_wave__4_.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/drawable/ic_wave__5_.xml" value="0.1" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_aval.xml" value="0.25" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_disaster2.xml" value="0.25" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_disaster_map.xml" value="0.12" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_hailstorm.xml" value="0.25" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_hurric.xml" value="0.25" />
+        <entry key="..\:/Disaster/app/src/main/res/drawable/layout.xml" value="0.1845" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/activity_disaster_map.xml" value="0.2" />
         <entry key="..\:/Disaster/app/src/main/res/layout/activity_loading_page.xml" value="0.1" />
         <entry key="..\:/Disaster/app/src/main/res/layout/activity_login.xml" value="0.13272543059777103" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_main.xml" value="0.12552083333333333" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_main2.xml" value="0.12552083333333333" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_maps_new.xml" value="0.12552083333333333" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_sandstorm.xml" value="0.25" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_snowstorm.xml" value="0.25" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/activity_weather_and_disaster.xml" value="0.2" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/activity_maps_new.xml" value="0.2359375" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/activity_weather_and_disaster.xml" value="0.25" />
         <entry key="..\:/Disaster/app/src/main/res/layout/dialilog.xml" value="0.2" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/disaster_card_view.xml" value="0.33" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/fragment_disaster.xml" value="0.25" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/disaster_card_view.xml" value="0.2" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/fragment_disaster.xml" value="0.2" />
         <entry key="..\:/Disaster/app/src/main/res/layout/fragment_weather.xml" value="0.25" />
-        <entry key="..\:/Disaster/app/src/main/res/layout/logout_dialog.xml" value="0.12552083333333333" />
+        <entry key="..\:/Disaster/app/src/main/res/layout/logout_dialog.xml" value="0.10989583333333333" />
         <entry key="..\:/Disaster/app/src/main/res/menu/activity_weather_and_disaster.xml" value="0.12552083333333333" />
         <entry key="..\:/Disaster/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19148936170212766" />
         <entry key="..\:/Disaster/app/src/main/res/menu/main_menu.xml" value="0.12552083333333333" />
