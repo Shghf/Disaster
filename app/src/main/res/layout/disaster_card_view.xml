@@ -23,7 +23,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/flood" />
+                android:src="@drawable/loge" />
 
             <TextView
                 android:id="@+id/title"

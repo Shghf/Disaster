@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.form.DownloadImageTask;
 import com.example.form.R;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -36,8 +38,9 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             title=itemView.findViewById(R.id.title);
             desc=itemView.findViewById(R.id.desc);
         }
-        public void setImageview(int imageview) {
-          this.imageview.setImageResource(imageview);
+        public void setImageview(String imageUrl) {
+            new DownloadImageTask((ImageView) imageview)
+                    .execute(imageUrl);
         }
         public void setTitle(String title) {
             this.title.setText(title);

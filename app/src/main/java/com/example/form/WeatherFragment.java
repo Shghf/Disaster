@@ -17,7 +17,9 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.form.model.DisasterModel;
 import com.example.form.model.WeatherRVModel;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class WeatherFragment extends Fragment {
     TextView cityTextView, dateTextView, tempTextView, rainTextView, humidityTextView;
@@ -84,4 +86,5 @@ public class WeatherFragment extends Fragment {
         });
         requestQueue.add(request);
     }
+
 }

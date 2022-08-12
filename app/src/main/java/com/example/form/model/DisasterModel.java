@@ -1,18 +1,25 @@
 package com.example.form.model;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
+
 public class DisasterModel {
-    int image;
+    String image;
     String title;
     String desc;
-public DisasterModel(int image, String title, String desc) {
+public DisasterModel(String image, String title, String desc) {
     this.image = image;
     this.title = title;
     this.desc = desc;
 }
-    public int getImage() {
+    public String getImage() {
         return image;
     }
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
     public String getTitle() {
@@ -27,5 +34,18 @@ public DisasterModel(int image, String title, String desc) {
     public void setDesc(String desc) {
         this.desc = desc;
     }
-
+    static public DisasterModel fromMap(Map<String, Object> map, String id) throws JSONException {
+        return new DisasterModel(
+                Objects.requireNonNull(map.getOrDefault("image","0")).toString(),
+                Objects.requireNonNull(map.getOrDefault("title","0")).toString(),
+                Objects.requireNonNull(map.getOrDefault("desc","0")).toString()
+        );
+    }
+    public Map<String, Object> toMap() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("image", image);
+        map.put("title", title);
+        map.put("desc", desc);
+        return map;
+    }
 }
