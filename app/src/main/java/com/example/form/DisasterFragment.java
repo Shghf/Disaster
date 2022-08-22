@@ -25,7 +25,6 @@ import java.util.ArrayList;
 public class DisasterFragment extends Fragment {
     CustomAdapter adapter;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
-
     RecyclerView disasterRecyclerView;
     static  ArrayList<DisasterModel> disasterList=new ArrayList<>();
     @Override
@@ -52,8 +51,6 @@ public class DisasterFragment extends Fragment {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
         disasterRecyclerView.setLayoutManager(linearLayoutManager);
         disasterRecyclerView.setAdapter(adapter);
-        linearLayoutManager.setStackFromEnd(true);
-//        recycleViewMessage.addItemDecoration(new OverlapDecoration());
 
     }
 
@@ -61,8 +58,10 @@ public class DisasterFragment extends Fragment {
         try {
             db.collection("disasters").get().addOnCompleteListener(task -> {
                 if (task.isSuccessful()) {
+                    disasterList.clear();
                     for (QueryDocumentSnapshot document : task.getResult()) {
                         try {
+
                             disasterList.add(DisasterModel.fromMap(document.getData(), document.getId()));
                             insertToLocal();
                         } catch (JSONException e) {

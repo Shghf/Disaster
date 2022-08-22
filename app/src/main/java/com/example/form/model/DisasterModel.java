@@ -34,18 +34,13 @@ public DisasterModel(String image, String title, String desc) {
     public void setDesc(String desc) {
         this.desc = desc;
     }
+
+
     static public DisasterModel fromMap(Map<String, Object> map, String id) throws JSONException {
         return new DisasterModel(
                 Objects.requireNonNull(map.getOrDefault("image","0")).toString(),
                 Objects.requireNonNull(map.getOrDefault("title","0")).toString(),
                 Objects.requireNonNull(map.getOrDefault("desc","0")).toString()
         );
-    }
-    public Map<String, Object> toMap() {
-        Map<String, Object> map = new HashMap<>();
-        map.put("image", image);
-        map.put("title", title);
-        map.put("desc", desc);
-        return map;
     }
 }

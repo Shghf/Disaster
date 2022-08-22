@@ -63,7 +63,8 @@ public class DisasterMap extends AppCompatActivity implements OnMapReadyCallback
         disaster_details_tv = findViewById(R.id.disaster_desc);
         disaster_title_tv.setText(DisasterFragment.disasterList.get(getIntent().getIntExtra("position",0)).getTitle());
         disaster_details_tv.setText(DisasterFragment.disasterList.get(getIntent().getIntExtra("position",0)).getDesc());
-//        disasterImg.setImageResource(DisasterFragment.disasterList.get(getIntent().getIntExtra("position",0)).getImage());
+        new DownloadImageTask((ImageView) disasterImg)
+                .execute(DisasterFragment.disasterList.get(getIntent().getIntExtra("position",0)).getImage());
         title = findViewById(R.id.title_tv);
         description = findViewById(R.id.description_tv);
         storage = FirebaseStorage.getInstance();
